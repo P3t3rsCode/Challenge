@@ -85,3 +85,23 @@ h5{
 .det{
     font-size: 14px;
 }
+
+#map {
+    height: 400px;  /* The height is 400 pixels */
+    width: 800px;  /* The width is the width of the web page */
+    z-index: -1;
+    display: none;
+    position:absolute;
+    top: 123px;
+   }
+
+.event-tag {
+    border-radius: 10px;
+    padding: 0.5em;
+    background: rgb(204, 204, 204);
+    
+  }
+
+  .hidden{
+      display: none;
+  }
